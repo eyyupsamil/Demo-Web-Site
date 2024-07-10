@@ -1,0 +1,77 @@
+@media screen and (max-width:770px){
+
+    .navbar{
+        width: 90%;
+    }
+
+    .logoh2 a{
+        font-size: 20px;
+    }
+
+    #menu_bar{
+        display: grid;
+        color: #fff;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solid #fff;
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .nav_links{
+        flex-direction: column;
+        position: absolute;
+        background: #24292D;
+        width: 100%;
+        left: 0;
+        padding: 0;
+    }
+
+    .nav_links li a{
+        border-bottom: 1px solid #fff;
+        display: block;
+        border-radius: 0;
+        padding: 10px 0;
+        margin: 0 20px;
+    }
+    .nav_links li:last-child a{
+        border-bottom: none;
+    }
+
+    .inner_home{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .child_home{
+        flex-basis: 100%;
+    }
+    .child_home:last-child{ 
+        margin-bottom: 20px;
+    }
+    .child_home h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .child_home p{
+        font-size: 20px;
+    }
+
+    /* yazilimlar */
+    .innersofware_child{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    /* sertifikalarim */
+    .child_courses{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+
+}
